@@ -1,0 +1,47 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Operdores</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <sebm-google-map [latitude]="-16.498838" [longitude]="-68.133972" [zoom]="16">
+  <sebm-google-map-marker [latitude]="-16.498838" [longitude]="-68.133972" (markerClick)="showAlert()">
+
+  </sebm-google-map-marker>
+</sebm-google-map>
+   <!--div id="map"></div>
+  <google-map [center]="{lat: -34.397, lng: 150.644}" style="width: 100%; height: 100%">
+   <google-map-marker [position]="{lat: -34.397, lng: 150.644}"></google-map-marker>
+ </google-map-->
+<!--ng2-map center="Brampton, Canada"></ng2-map>
+  <h3>Formulario Operadores</h3-->
+
+  <!--p>
+    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
+  </p-->
+  <!--ion-list>
+    <ion-item>
+     <ion-label floating>Nombre</ion-label>
+     <ion-input type="text" [(ngModel)]="data.nombre"></ion-input>
+   </ion-item>
+
+   <ion-item>
+     <ion-label floating>Telefono</ion-label>
+     <ion-input type="text" [(ngModel)]="data.telefono"></ion-input>
+   </ion-item>
+
+ </ion-list-->
+ <!--sebm-google-map
+   [latitude]="xprq_latitud"
+   [longitude]="xprq_longitud"
+   [zoom]="16"
+   (mapClick)="mapClicked($event)">
+
+ </sebm-google-map-->
+
+  
+</ion-content>

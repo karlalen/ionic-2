@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Geo-Ubicacion</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <sebm-google-map [latitude]="-16.498838" [longitude]="-68.133972" [zoom]="16">
+    <sebm-google-map-marker [latitude]="-16.498838" [longitude]="-68.133972" (markerClick)="showAlert()">
+
+    </sebm-google-map-marker>
+  </sebm-google-map>
+
+</ion-content>
